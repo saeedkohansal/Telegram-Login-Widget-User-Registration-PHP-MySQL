@@ -1,0 +1,63 @@
+body {
+    font-family: "Nanum Gothic";
+    margin: 0;
+    color: #fff;
+    background-color: #0088cc;
+    animation: fadeIn;
+    animation-duration: 1s;
+}
+
+a {
+    color: #0088cc;
+    text-decoration: none;
+    transition: 1s;
+}
+
+a:hover {
+    transition: 1s;
+    filter: hue-rotate(100deg) saturate(1.5);
+}
+
+h1 {
+    text-align: center;
+}
+
+.middle-center {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #444;
+    background-color: #fff;
+    width: 50%;
+    text-align: center;
+    border-radius: 40px;
+    padding: 0 0 20px;
+}
+
+.profile-picture {
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 6px solid #0088cc;
+    width: 256px;
+    height: 256px;
+}
+
+.user-data {
+    background-color: #eaeaea;
+    width: 50%;
+    margin: 10px auto;
+    padding: 20px 0;
+    border-radius: 50px;
+}
+
+.logout {
+    color: #fff;
+    background-color: #f00;
+    width: fit-content;
+    margin: 20px auto 0;
+    padding: 20px 50px;
+    border-radius: 50px;
+    display: inline-block;
+}
